@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# secrets
+.env
+
+# generated / large data (regenerate with data/generate_data.py and data/prepare_real_data.py --download)
+data/*.csv
+data/imd_raw/
+
+# sandbox scratch space and per-run logs (not source)
+.sandbox_cache/
+runs/
+
+# showcase run outputs (regenerate with scripts/run_showcase.py + scripts/make_showcase_pdf.py)
+showcase/*.json
+showcase/*.png
+showcase/groq/
+showcase/final/
+showcase/model_bench/
+
+# editor / tool local state
+.claude/
+.vscode/
+.idea/
+*.swp
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# not core project code: tests, reports/demos, and dev-only tooling
+tests/
+showcase/
+scripts/
+viva_notes.md

@@ -1,0 +1,25 @@
+{
+  "source": "IMD Pune 1-degree gridded daily maximum temperature (imdpune.gov.in), via imdlib",
+  "rows": 1296815,
+  "grid_points": 355,
+  "date_range": [
+    "2015-01-01",
+    "2024-12-31"
+  ],
+  "missing_tmax_fraction": 0.0016,
+  "cells_per_region": {
+    "North Central": 87,
+    "North West": 77,
+    "Interior Peninsula": 53,
+    "Western Himalaya": 44,
+    "North East": 38,
+    "East Coast": 35,
+    "West Coast": 21
+  },
+  "cells_per_terrain": {
+    "plains": 235,
+    "hilly": 71,
+    "coastal": 49
+  },
+  "note": "region, terrain and nearest_city are approximations added by prepare_real_data.py"
+}

@@ -1,0 +1,30 @@
+{
+  "source": "Synthetic IMD-like 1-degree gridded daily Tmax (stand-in for IMD Pune GRD extraction)",
+  "rows": 127855,
+  "grid_points": 35,
+  "date_range": [
+    "2015-01-01",
+    "2024-12-31"
+  ],
+  "seed": 42,
+  "columns": {
+    "date": "datetime64",
+    "lat": "degrees N (1-degree grid)",
+    "lon": "degrees E",
+    "region": "IMD homogeneous temperature region (7)",
+    "terrain": "plains | coastal | hilly",
+    "tmax": "daily maximum temperature, degC, 1 decimal",
+    "nearest_city": "closest major city",
+    "city_km": "distance to that city"
+  },
+  "missing_values": "NaN, or the IMD sentinel 99.9",
+  "regions": [
+    "Western Himalaya",
+    "North West",
+    "North Central",
+    "North East",
+    "East Coast",
+    "West Coast",
+    "Interior Peninsula"
+  ]
+}
